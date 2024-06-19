@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+
+}
+
+h1,h2,h3,h4{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+h1{font-size: 2.5rem;}
+h2{font-size: 2rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+
+#navbar{
+    padding: 2px;
+}
+
+#logo{
+    height: 70px;
+}
+
+#banner{
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    color:  violet;
+}
+
+a{
+    text-decoration: none;
+    color: #60A5FA;
+}
+
+a:hover{
+    color: #4B5563;
+}
+
+#banner{
+    width: 100%;
+}
+
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description{
+    width: 50%;
+    padding-right: 8px;
+    font-size: 1rem;
+    
+}
+
+#teamimg{
+    width: 50%;
+    box-shadow: 5px 5px 12px #BFDBFE;
+}
+
+#ban1{
+    border-radius: 7px;
+    width: 100%;
+}
+
+#job-tables{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.job-header-row th{
+    background-color: #C7D2FE;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+    color: #222222;
+}
+
+.job-data-row ,td{
+    border: 1px solid gray;
+    text-align: left;
+    padding: 8px;
+}
+
+#job-tables tr:nth-child(odd){
+    background-color: #EEF2FF;
+
+}
+
+
+h2{
+    text-align: center;
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#roles{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+h3{
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.apply{
+    float: right;
+}
+
+#footer{
+    background-color: #D1D5DB;
+    text-align: center;
+
+}
+
+#footer-links{
+    list-style: none;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#footer-links li{
+    display: inline;
+    margin: 0 16px
+
+}
+
+/* Form Styling */
+
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group{
+    padding: 6px;
+}
+
+#application-form label{
+   font-weight: 600;
+}
+
+#application-form input,select,textarea{
+    padding: 4px;
+    font-size: 1.2rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.form-group textarea{
+    width: 80%;
+    font-family: "Poppins",sans-serif;
+}
+
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"]{
+    background-color: #2563EB;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.copyright{
+    color: #6B7280;
+    font-size: 0.875em;
+}
